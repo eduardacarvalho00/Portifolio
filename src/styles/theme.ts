@@ -3,12 +3,10 @@ import {
 } from '@chakra-ui/react';
 
 const config: ThemeConfig = {
-  initialColorMode: 'light',
+  initialColorMode: 'dark',
   useSystemColorMode: false,
 };
 
-// const bg = useColorModeValue('orange.50', 'gray.900');
-// const color = useColorModeValue('gray.50', 'gray.800');
 function Background() {
   useColorModeValue('orange.50', 'gray.900');
 }
