@@ -2,7 +2,7 @@ import {
   Box, Center, Heading, Stack, Text,
 } from '@chakra-ui/react';
 import {
-  SiSass, SiChakraui, SiStyledcomponents, SiVisualstudio, SiExpo, SiMicrosoftazure, SiNextdotjs, SiYarn, 
+  SiSass, SiChakraui, SiStyledcomponents, SiVisualstudio, SiExpo, SiMicrosoftazure, SiNextdotjs, SiYarn, SiTypescript, SiJavascript, 
 } from 'react-icons/si';
 import { FaGitAlt, FaReact } from 'react-icons/fa';
 import { CardIcon } from '../../components/CardSkillsIcon';
@@ -49,7 +49,7 @@ export default function MySkills() {
           </Stack>
         </Center>
 
-        <Text fontSize={19}>Framework :</Text>
+        <Text fontSize={19}>Frameworks/Programming language :</Text>
         <Center>
           <Stack
             direction={['column', 'row']} 
@@ -59,18 +59,28 @@ export default function MySkills() {
             >
               <CardIcon
                 icon={FaReact}
-                title="React"
+                title="React.js"
                 color="blue.400" 
               />
               <CardIcon
                 icon={SiNextdotjs}
-                title="Next" 
+                title="Next.js" 
                 color="black" 
               />
               <CardIcon
                 iconImage={'https://www.onu.ro/wp/wp-content/uploads/2020/03/react-native-logo-768x890.png'}
                 title="React Native" 
                 color="black" 
+              />
+              <CardIcon
+                icon={SiTypescript}
+                title="Typescript"
+                color="blue.500" 
+              />
+              <CardIcon
+                icon={SiJavascript}
+                title="Javascript"
+                color="yellow.400" 
               />
           </Stack>
         </Center>

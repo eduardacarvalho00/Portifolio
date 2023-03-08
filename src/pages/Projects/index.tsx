@@ -12,7 +12,7 @@ export default function Projects() {
     <Flex
       id="projects"
       w="100%"
-      h={['1650', '600']}
+      h="auto"
       maxW={['300', '550', '700', '1191']}
       mx="auto"
       mb={50}

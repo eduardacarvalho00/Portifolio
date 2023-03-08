@@ -18,8 +18,8 @@ export function CardIcon({
     <MotionBox whileHover={{ scale: 1.1 }}> 
       <Tooltip hasArrow label={title} color="gray.50" borderRadius={3} bg="orange.500">
         <Center
-          w={['150px', '200px']}
-          h={['150px', '200px']}
+          w={['120px', '150px']}
+          h={['120px', '150px']}
           bg="gray.800"
           borderRadius={8}
           _hover={{
@@ -29,15 +29,15 @@ export function CardIcon({
           {iconImage 
             && <Image
               src={iconImage}
-              w={['100px', '160px']}
-              h={['100px', '160px']} 
+              w={['100px', '120px']}
+              h={['100px', '120px']} 
           />}
           
           {icon 
             && <Icon
               as={icon}
-              w={['100px', '180px']}
-              h={['100px', '180px']}
+              w={['100px', '120px']}
+              h={['100px', '120px']}
               title={title}
               color={color} 
           />}
