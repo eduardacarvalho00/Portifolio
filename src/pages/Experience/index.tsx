@@ -25,7 +25,12 @@ export default function Experience() {
         <Accordion allowToggle>
           <AccordionItem w="100%">
             <h2>
-              <AccordionButton fontSize={[20, 30]} color="orange.500">
+              <AccordionButton
+                fontSize={[20, 30]}
+                color="orange.500"
+                _expanded={{ bg: 'tomato', color: 'white' }}
+                _hover={{ bg: 'blackAlpha.300' }}
+              >
                 <Box as="span" flex="1" textAlign="left">
                   Work Experience
                 </Box>

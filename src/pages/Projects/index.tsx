@@ -25,7 +25,7 @@ export default function Projects() {
         textAlign={'center'}
         fontWeight="medium"
         pb={['10', '100']}
-        fontSize={['22', '26']}
+        fontSize={['22', '36']}
         color="orange.500"
       >
         Projects

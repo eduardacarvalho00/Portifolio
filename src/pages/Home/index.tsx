@@ -34,7 +34,7 @@ export default function Home() {
 
       <Box w="100%" maxW={415} h="464">
 
-        <Heading as="h1" textAlign={'center'} fontWeight="medium" pb={['30', '100', '145']} fontSize={['22', '26']}>Who <Text as="span" color="orange.500"> I </Text> am?</Heading>
+        <Heading as="h1" textAlign={'center'} fontWeight="medium" pb={['30', '100', '145']} fontSize={['22', '36']}>Who <Text as="span" color="orange.500"> I </Text> am?</Heading>
 
         <Text textAlign={'justify'} lineHeight="1.7" fontWeight="regular" p={[3, 0, 0, 0]} fontSize={['16', '18']}>
           My name is <Text as="span" color="orange.500">Eduarda Carvalho</Text>, I'm 18 years old and I'm in the third quarter of Systems Analysis and Development at Anhembi Morumbi.
