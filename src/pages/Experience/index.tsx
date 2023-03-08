@@ -18,7 +18,7 @@ export default function Experience() {
       w="100%"
       maxW={['270', '300', '550', '700', '1191']}
       mx="auto"
-      h={['250', '250']}
+      h={['500px', '350px']}
       mt={['200', '350', '400', '150']}
       id="experience"
     >
@@ -38,11 +38,11 @@ export default function Experience() {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Grid templateColumns="repeat(2, 1fr)" gap={3}>
-                <GridItem>
+              <Grid templateColumns={['repeat(0, 1fr)', 'repeat(2, 1fr)']} gap={3}>
+                <GridItem colSpan={[0, 2]}>
                   <Text as="b"> Dataside Soluções em Dados Ltda </Text>
                 </GridItem>
-                <GridItem colEnd={4}>
+                <GridItem colEnd={[0, 4]}>
                   São José dos Campos, SP
                   April 2022 - Present
                 </GridItem>
@@ -51,7 +51,7 @@ export default function Experience() {
                 </GridItem>
               </Grid>
 
-              <UnorderedList>
+              <UnorderedList mt="10px">
                 <ListItem>
                   I develop internal applications using yarn, React.js, Next.js, Typescript, Chakra UI and API rest consumption with axios;
                 </ListItem>
