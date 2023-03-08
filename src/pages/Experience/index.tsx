@@ -33,18 +33,18 @@ export default function Experience() {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            <Grid templateColumns="repeat(2, 1fr)" gap={3}>
-              <GridItem>
-                <Text as="b"> Dataside Soluções em Dados Ltda </Text>
-              </GridItem>
-              <GridItem colEnd={4}>
-                São José dos Campos, SP
-                April 2022 - Present
-              </GridItem>
-              <GridItem>
-                <Text as="i"> Trainee FrontEnd Developer</Text>
-              </GridItem>
-            </Grid>
+              <Grid templateColumns="repeat(2, 1fr)" gap={3}>
+                <GridItem>
+                  <Text as="b"> Dataside Soluções em Dados Ltda </Text>
+                </GridItem>
+                <GridItem colEnd={4}>
+                  São José dos Campos, SP
+                  April 2022 - Present
+                </GridItem>
+                <GridItem>
+                  <Text as="i"> Trainee FrontEnd Developer</Text>
+                </GridItem>
+              </Grid>
 
               <UnorderedList>
                 <ListItem>
