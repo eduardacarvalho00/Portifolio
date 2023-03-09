@@ -9,7 +9,7 @@ export default function Header() {
   const Icon = useColorModeValue('🌒', '☀️');
 
   return (
-    <Flex flexDirection={'column'} bg="#161616">
+    <Flex flexDirection="column" bg="#161616">
       <Flex
         as="header"
         w="100%"
@@ -29,7 +29,7 @@ export default function Header() {
             borderRadius: '100%',
           }}
         >
-          <Text color="orange.500" fontWeight={'bold'} fontSize={['16', '20']}>Eduarda .</Text>
+          <Text color="orange.500" fontWeight="bold" fontSize={['16', '20']}>Eduarda .</Text>
         </MotionBox>
         <Box>
           <LinkHeader title="HOME" href="#home" />
@@ -51,7 +51,7 @@ export default function Header() {
         </Box>
         
       </Flex>
-      <Divider bg={'orange.500'} />
+      <Divider bg="orange.500" />
     </Flex>
     
   );

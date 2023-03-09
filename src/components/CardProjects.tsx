@@ -32,7 +32,7 @@ export function CardsProjects({
       >
         <Image
           src={src}
-          maxW={'100%'}
+          maxW="100%"
           minH="150px"
           borderRadius={5}
         />

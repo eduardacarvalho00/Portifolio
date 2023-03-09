@@ -13,7 +13,7 @@ export function LinkHeader({ title, href }: LinkProps) {
         fontWeight="regular"
         fontSize={['12.4', '16', '18']}
         px={[1, 2]}
-        color={'white'}
+        color="white"
         _hover={{
           color: 'orange.500',
           textDecoration: 'underline',
