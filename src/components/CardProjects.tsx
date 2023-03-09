@@ -14,7 +14,7 @@ export function CardsProjects({
   src, title, text, href, 
 }: CardProjectProps) {
   const borderColor = useColorModeValue('gray.600', 'gray.500');
-  const bgCard = useColorModeValue('linear(to-l, blackAlpha.400, whiteAlpha.100)', 'linear(to-l, whiteAlpha.200, whiteAlpha.100)');
+  const bgCard = useColorModeValue('linear(to-l, whiteAlpha.300, blackAlpha.100)', 'linear(to-l, whiteAlpha.200, whiteAlpha.100)');
   return (
     <MotionBox whileHover={{ scale: 1.05 }}> 
       <Flex
