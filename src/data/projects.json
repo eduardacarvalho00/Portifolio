@@ -9,14 +9,14 @@
   "id": 2,
   "title": "Crappo",
   "description": "Design carried out from a figma design. Responsive aplication",
-  "photo": "https://user-images.githubusercontent.com/99972177/200575370-d2e267bc-5670-4b94-bdb1-6d435e3f58d7.png",
+  "photo": "https://user-images.githubusercontent.com/99972177/199796880-14cf855c-8872-41ba-9074-4a58467d4754.png",
   "linkUrl": "https://crappo-omega.vercel.app/"
 },
 {
   "id": 3,
   "title": "Wheather App",
   "description": "Weather application, consuming an API, made in react, typescript and chakra ui",
-  "photo": "https://user-images.githubusercontent.com/99972177/199796880-14cf855c-8872-41ba-9074-4a58467d4754.png",
+  "photo": "https://user-images.githubusercontent.com/99972177/200575370-d2e267bc-5670-4b94-bdb1-6d435e3f58d7.png",
   "linkUrl": "https://weatherapp-hazel-eight.vercel.app/"
 },
 {
